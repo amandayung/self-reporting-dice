@@ -1,2 +1,5 @@
 # Self Reporting Dice
-This stores the files for our final group project in RIT's HCIN 720 class.
+
+We plan to design and develop an self-reporting D20 that can be used for during tabletop gameplay amongst friends over the internet.
+
+[Project Proposal](https://github.com/amandayung/self-reporting-dice/blob/master/final-project-proposal.pdf)
