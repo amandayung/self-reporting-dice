@@ -1,6 +1,6 @@
 //Photon info
-var device = "2d0033001647343337363432";
-var token = "9a71cf04a48131401f132f361dd36d5040032c4a";
+var device = "PUT PHOTON DEVICE CODE HERE";
+var token = "PUT TOKEN HERE";
 
 //ordered by side (1,2...20 ---> 0 is 1)
 //ranges estimated from ~50 data points for each side
