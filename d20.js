@@ -111,7 +111,7 @@ function determineSide() {
 	//console.log("gyro std: " + stdgx + "," + stdgy + "," + stdgz);
 
 	//if there isn't much noise in the gyroscope values, then it should have settled on a side
-	if (stdgx < stdThreshold && stdgy < stdThreshold && stdgz < stdThreshold && sideRolled == 0) {
+	if (stdgx < stableThreshold && stdgy < stableThreshold && stdgz < stableThreshold && sideRolled == 0) {
 
 		//get average for all measures
 		var curPitch = average(pitch);
