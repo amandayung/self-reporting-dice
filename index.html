@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>D20</title>
+		<!--using bootstrap for some simple css styling-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<!--custom css-->
+		<link href="d20.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<div>
+			<!-- user input for manual side control of self-rolling D20 -->
+			<p><strong>Move D20:</strong>
+			<input type="text" id="d20-command" name="d20-command">
+			<button type="button" id="send-button" class="btn btn-default">Send!</button></p>
+
+			<!-- displays what side was rolled -->
+			<p>
+			<h1><span id="side"></span></h1>
+			</p>
+
+			<!-- reset the self-rolling D20 to its starting position -->
+			<p><button type="button" id="reset-button" class="btn btn-lg btn-primary">Reset D20</button></p>
+		</div>
+	</body>
+
+	<!-- JS scripts:
+	* socket.io is for connecting to the server
+	* jquery is for easier js use
+	* underscore is for some helpful functions 
+	* d20.js is custom code -->
+	<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+	<script src="./underscore-min.js"></script>
+	<script src="./d20.js"></script>
+</html>

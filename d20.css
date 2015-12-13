@@ -1,0 +1,9 @@
+html, body {
+    margin: 2em;
+    height: 100%;
+    text-align: center;
+}
+
+p {
+	margin-bottom: 5em;
+}

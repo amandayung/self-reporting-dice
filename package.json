@@ -1,0 +1,26 @@
+{
+  "name": "self-reporting-dice",
+  "version": "1.0.0",
+  "description": "HCIN-720 project for reading a D20's roll and sending this information to a paired D20.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "serialport": "^2.0.5",
+    "socket.io": "^1.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandayung/self-reporting-dice.git"
+  },
+  "author": "Amanda Yung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amandayung/self-reporting-dice/issues"
+  },
+  "homepage": "https://github.com/amandayung/self-reporting-dice#readme"
+}
